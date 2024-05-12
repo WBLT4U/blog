@@ -14,28 +14,39 @@ function Blog() {
     const newsItems = [
       {
         title: "All abducted Kogi varsity students will be rescued alive, govt vows",
-        url: "https://www.vanguardngr.com/2024/05/all-abducted-kogi-varsity-students-will-be-rescued-alive-govt-vows/",
+        author: "Ododo",
         description: "Latest news",
+        state: "Kogi State",
+        time: "9:00am",
+
       },
       {
         title: "Chad deploys soldiers across country after junta chief elected president",
-        url: "https://www.vanguardngr.com/2024/05/chad-deploys-soldiers-across-country-after-junta-chief-elected-president/",
+        author: "Mal. Isah Gambo",
         description: "Latest news",
+        state: "Kano State",
+        time: "10:00am",
       },
       {
         title: "Ondo varsity sacks Deputy VC over alleged false petition",
-        url: "https://www.vanguardngr.com/2024/05/ondo-varsity-sacks-deputy-vc-over-alleged-false-petition/",
+        author: "Mr. Gbade Olalekan",
         description: "Latest news",
+        state: "Ondo State",
+        time: "11:00am",
       },
       {
         title: "Abducted FIJ reporter, Daniel Ojukwu regains freedom",
-        url: "https://www.vanguardngr.com/2024/05/abducted-fij-reporter-daniel-ojukwu-regains-freedom/",
+        author: "Mr. Chukwuemeka",
         description: "Latest news",
+        state: "Imo State",
+        time: "1:00pm",
       },
       {
         title: "South Africa building collapse death toll rises to 12",
-        url: "https://www.vanguardngr.com/2024/05/south-africa-building-collapse-death-toll-rises-to-12/",
+        author: "Mr. Sunday Dare",
         description: "Latest news",
+        state: "Lagos State",
+        time: "2:00pm",
       },
     ];
     const item = newsItems[currentPosition];
@@ -83,10 +94,10 @@ function Blog() {
       </section>
       <div className="pagination">
         <button className="prev" onClick={handlePrevious}>
-          Previous
+          Previous Article
         </button>
         <button className="next" onClick={handleNext}>
-          Next
+          Next Article
         </button>
       </div>
     </section>
