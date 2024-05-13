@@ -7,10 +7,10 @@ function AboutUs() {
     <form 
     onSubmit={(event) => {
       event.preveantDefault();
-      const { name, email, tel } = event.target.elements;
+      const { username, password } = event.target.elements;
       console.log(username.value, password.value);
       alert(
-        `Hello ${name.value}! Your email is ${email.value} and your tel is ${tel.value}`
+        `Hello ${username.value}! You are welcome to our Blog`
         );
     }}>
       <input type="text" placeholder="Enter your Username" name="username"/>
