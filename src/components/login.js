@@ -6,7 +6,7 @@ function LogIn() {
     <section className="form-container">
     <form 
     onSubmit={(event) => {
-      event.preveantDefault();
+      event.preventDefault();
       const { username, password } = event.target.elements;
       console.log(username.value, password.value);
       alert(
