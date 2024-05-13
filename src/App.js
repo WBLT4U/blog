@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./components/Home";
-import AboutUs from "./components/aboutus";
-import ContactUs from "./components/contactus";
+import Login from "./components/login";
+import SignUp from "./components/signup";
 import Blog from "./components/pagination";
 import Nav from "./components/Navbar";
 import Avatar from "./components/Avatar";
@@ -15,8 +15,8 @@ function App() {
       <Avatar />
       <Routes>
         <Route path='/' element={<Home />}></Route>
-        <Route path='/aboutus' element={<AboutUs />}></Route>
-        <Route path='/contactus' element={<ContactUs />}></Route>
+        <Route path='/login' element={<LogIn />}></Route>
+        <Route path='/singup' element={<SignUp />}></Route>
         <Route path='/pagination' element={<Blog />}></Route>
         
       </Routes>

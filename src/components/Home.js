@@ -88,7 +88,9 @@ function Blog() {
           <div className="news-item">
             <h2>{news.title}</h2>
             <p>{news.description}</p>
-            <a href={news.url}>{news.url}</a>
+            <p>{news.author}</p>
+            <p>{news.state}</p>
+            <p>{news.time}</p>
           </div>
         )}
       </section>
