@@ -6,7 +6,7 @@ function SignUp() {
     <section className="form-container">
     <form 
     onSubmit={(event) => {
-      event.preveantDefault();
+      event.preventDefault();
       const { name, email, tel, username, password } = event.target.elements;
       console.log(name.value, email.value, tel.value, username.value, password.value);
       alert(
