@@ -5,8 +5,8 @@ function Nav(){
         <>
           <nav className="navbar">
             <Link to="/">Home</Link>
-            <Link to="/aboutus">About Us</Link>
-            <Link to="/contactus">Contact Us</Link>
+            <Link to="/aboutus">Login</Link>
+            <Link to="/contactus">Sign Up</Link>
             <Link to="/pagination">Blog</Link>
           </nav>
         </>
