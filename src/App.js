@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./components/Home";
-import Login from "./components/login";
+import LogIn from "./components/login";
 import SignUp from "./components/signup";
 import Blog from "./components/pagination";
 import Nav from "./components/Navbar";
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/login' element={<LogIn />}></Route>
-        <Route path='/singup' element={<SignUp />}></Route>
+        <Route path='/signup' element={<SignUp />}></Route>
         <Route path='/pagination' element={<Blog />}></Route>
         
       </Routes>
